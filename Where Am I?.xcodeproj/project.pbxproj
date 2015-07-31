@@ -13,6 +13,8 @@
 		3BB04CC11B6B08E300097A66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB04CC01B6B08E300097A66 /* Images.xcassets */; };
 		3BB04CC41B6B08E300097A66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB04CC21B6B08E300097A66 /* LaunchScreen.xib */; };
 		3BB04CD01B6B08E300097A66 /* Where_Am_I_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB04CCF1B6B08E300097A66 /* Where_Am_I_Tests.swift */; };
+		3BB04CDA1B6B090300097A66 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB04CD91B6B090300097A66 /* CoreLocation.framework */; };
+		3BB04CDC1B6B145E00097A66 /* light-blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BB04CDB1B6B145E00097A66 /* light-blue-background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3BB04CC91B6B08E300097A66 /* Where Am I?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am I?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB04CCE1B6B08E300097A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BB04CCF1B6B08E300097A66 /* Where_Am_I_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_I_Tests.swift; sourceTree = "<group>"; };
+		3BB04CD91B6B090300097A66 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BB04CDB1B6B145E00097A66 /* light-blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-blue-background.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB04CDA1B6B090300097A66 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		3BB04CAB1B6B08E300097A66 = {
 			isa = PBXGroup;
 			children = (
+				3BB04CD91B6B090300097A66 /* CoreLocation.framework */,
 				3BB04CB61B6B08E300097A66 /* Where Am I? */,
 				3BB04CCC1B6B08E300097A66 /* Where Am I?Tests */,
 				3BB04CB51B6B08E300097A66 /* Products */,
@@ -80,6 +86,7 @@
 				3BB04CB91B6B08E300097A66 /* AppDelegate.swift */,
 				3BB04CBB1B6B08E300097A66 /* ViewController.swift */,
 				3BB04CBD1B6B08E300097A66 /* Main.storyboard */,
+				3BB04CDB1B6B145E00097A66 /* light-blue-background.jpg */,
 				3BB04CC01B6B08E300097A66 /* Images.xcassets */,
 				3BB04CC21B6B08E300097A66 /* LaunchScreen.xib */,
 				3BB04CB71B6B08E300097A66 /* Supporting Files */,
@@ -194,6 +201,7 @@
 			files = (
 				3BB04CBF1B6B08E300097A66 /* Main.storyboard in Resources */,
 				3BB04CC41B6B08E300097A66 /* LaunchScreen.xib in Resources */,
+				3BB04CDC1B6B145E00097A66 /* light-blue-background.jpg in Resources */,
 				3BB04CC11B6B08E300097A66 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
