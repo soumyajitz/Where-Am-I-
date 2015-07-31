@@ -58,17 +58,6 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
                 }
             }
         })
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
 
     override
